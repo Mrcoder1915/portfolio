@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="output.css">
+    </head>
+    <body class="h-screen">
+        <header class = "fixed w-[100%] h-16 p-5 top-0 left-0 flex justify-between justify-items-center z-10 overflow-hidden">
+            <h1 class="font-serif font-medium text-2xl text-primary cursor-default">Sammy</h1>
+          <div class="hidden lg:block" >
+            <ul class="flex flex-row relative">
+                <li class="ml-6 text-2xl text-primary cursor-pointer after:scale-x-0 relative after:absolute after:left-0 after:-bottom-[1px] after:w-[100%] after:h-1 after:bg-primary
+                after:transition-all after:origin-left hover:after:scale-x-100"><a href="#about">About me</a></li>
+                <li class="ml-6 text-2xl text-primary cursor-pointer after:scale-x-0 relative after:absolute after:left-0 after:-bottom-[1px] after:w-[100%] after:h-1 after:bg-primary
+                after:transition-all after:origin-left hover:after:scale-x-100"><a href="#technolies">Technologies</a></li>
+                <li class="ml-6 text-2xl text-primary cursor-pointer after:scale-x-0 relative after:absolute after:left-0 after:-bottom-[1px] after:w-[100%] after:h-1 after:bg-primary
+                after:transition-all after:origin-left hover:after:scale-x-100"><a href="#experience">Experience</a></li>
+                <li class="ml-6 text-2xl text-primary cursor-pointer after:scale-x-0 relative after:absolute after:left-0 after:-bottom-[1px] after:w-[100%] after:h-1 after:bg-primary
+                after:transition-all after:origin-left hover:after:scale-x-100"><a href="#project">Project</a></li>
+            </ul>
+          </div>
+        </header>
+        <!-- section1 -->
+        <section id="" class="w-[100%] h-[100vh] lg:w-[50%] bg-black block  lg:fixed ">
+            <div class="w-[100%] h-[200px] md:h-[350px] lg:h-[300px] relative top-[200px] flex justify-center lg:top-[100px] ">        
+                <img src="sammy.png" alt="" class="w-[200px] h-[200px] md:w-[350px] md:h-[350px] lg:w-[300px] lg:h-[300px]">  
+              </div>
+              <div class="w-[100%] h-[75px] mt-2 top-52 relative flex items-center flex-col md:top-56 lg:top-32 lg:mt-0">  
+              <div>     
+                <h1 class="inline font-serif text-white text-3xl md:text-4xl">Hellow I'm</h1>    
+              </div>
+              <div>
+                <span class="typing text-primary text-3xl md:text-4xl relative "></span><span class="animate-blink  text-3xl md:text-4xl text-primary">|</span>
+              </div>
+            </div>
+        </section>
+        <!-- section2 about me -->
+        <section id="about" class="w-[100%] h-[50vh] lg:h-[50vh] lg:w-[50%] bg-black lg:absolute top-0 right-0 ">
+              <div class="w-[100%] relative lg:top-36">
+                 <h1 class="title text-primary md:text-4xl lg:text-2xl text-[20px] p-5">About me</h1>
+              </div>
+              <div class="w-[100%]  relative lg:top-36 px-5 leading-10 flex justify-center md:mt-32 lg:mt-0">
+                 <p class="text-white text-[20px] lg:text-[24px] md:text-4xl opacity-[.6] "> I'm [Sammy Navarro], a front-end developer with a knack for crafting
+                   immersive digital experiences. With a blend of creativity and technical expertise,
+                   I bring ideas to life through clean, elegant code and captivating designs.</p>
+              </div>
+        </section>
+        <!-- section3 technologies -->
+        <section id="technolies" class="w-[100%] h-[50vh] lg:w-[50%] bg-black absolute lg:top-[50%] lg:right-0 ">
+              <div class="p-5">
+                 <h1 class="title text-primary text-2xl">Technologies</h1>
+              </div>
+              <div class="w-[100%] lg:h-[100%] p-5 flex absolute lg:top-32 justify-center gap-10 flex-wrap">
+                <!-- tech1 -->
+                <div class="w-[70px] h-[100px] bg-gray-500 ">
+                  <div class="w-[100%] flex justify-center bg-white">
+                    <span><ion-icon class="text-7xl text-orange-700" name="logo-html5"></ion-icon></span>
+                  </div>
+                  <div class="w-[100%] flex justify-center relative top-0 bg-black">
+                    <span class="text-orange-700 font-medium">HTML</span>
+                  </div> 
+                </div>
+                <!-- tech2 -->
+                <div class="w-[70px] h-[100px] bg-gray-500 ">         
+                    <div class="w-[100%] flex justify-center bg-white">
+                      <span><ion-icon class="text-7xl text-blue-700" name="logo-css3"></ion-icon></span>
+                    </div>
+                    <div class="w-[100%] flex justify-center relative top-0 bg-black">
+                      <span class="text-orange-700 font-medium">CSS</span>
+                    </div> 
+                </div>
+                <!-- tech3 -->
+                <div class="w-[70px] h-[100px] bg-gray-500 ">
+                  <div class="w-[100%] flex justify-center bg-white">
+                    <span><ion-icon class="text-7xl text-yellow-500" name="logo-javascript"></ion-icon></span>
+                  </div>
+                  <div class="w-[100%] flex justify-center relative top-0 bg-black">
+                    <span class="text-orange-700 text-[17px]">JavaScript</span>
+                  </div> 
+                </div>
+                <!-- tech4 -->
+                <div class="w-[70px] h-[100px] bg-gray-500 ">
+                  <div class="w-[100%] flex justify-center bg-white">
+                    <span><img src="tail.png" class="h-[80px] w-[60px]"/></span>
+                  </div>
+                  <div class="w-[100%] flex justify-center relative top-0 bg-black">
+                    <span class="text-orange-700 font-medium">Tailwind</span>
+                  </div> 
+                </div>
+                <!-- tech5 -->
+                <div class="w-[70px] h-[100px] bg-gray-500">
+                  <div class="w-[100%] h-[78%] pt-2 flex justify-center bg-white">
+                    <span><ion-icon class="text-6xl text-blue-700 font-extrabold" name="logo-react"></ion-icon></span>
+                  </div>
+                  <div class="w-[100%] flex justify-center relative top-0 bg-black">
+                    <span class="text-orange-700 font-medium">React</span>
+                  </div>   
+                </div>
+                <!-- tech6 -->
+                <div class="w-[70px] h-[100px] bg-gray-500">
+                  <div class="w-[100%] h-[78%] pt-2 flex justify-center bg-white">
+                    <span><ion-icon class="text-6xl text-black font-extrabold"  name="logo-github"></ion-icon></span>
+                  </div>
+                  <div class="w-[100%] flex justify-center relative top-0 bg-black">
+                    <span class="text-orange-700 font-medium">Github</span>
+                  </div>   
+                </div>
+              </div>
+        </section>
+        <!-- section4 experience -->
+        <section id="experience" class="w-[100%] h-[50vh] lg:w-[50%] bg-black absolute lg:top-[100%] top-[200%] lg:right-0 ">
+              <div class="p-5">
+                 <h1 class="title text-2xl text-primary">Experience</h1>
+              </div>
+              <div class="w-[100%] p-5">
+                <p class="text-white text-2xl opacity-[.6] leading-10">I don't have experience working in the company yet but I have a lot of
+                  experience doing my own projects almost every day I do my own projects I'm still learning I'm honing my programming
+                   skills even more and I want to learn more I always practice my knowledge in html, css, javascript, tailwind and react</p>
+             </div>
+        </section>
+        <!-- section4 project -->
+        <section id="project" class="w-[100%] h-[100vh] lg:w-[50%] bg-black absolute lg:top-[150%] top-[250%] lg:right-0 overflow-hidden">
+              <div class="p-5">
+                 <h1 class="title text-2xl text-primary">Project</h1>
+              </div>
+              <div class="w-[100%]  p-5 flex flex-col gap-4 ">
+                <!-- pj1 -->
+                <div class="border-red-500 border-solid border-[2px] w-[100%] h-64 ">
+                  <div class="w-[100%]"></div>
+                </div>   
+                <div class="border-red-500 border-solid border-[2px] w-[100%] h-64 ">
+                  <div class="w-[100%]"></div>
+                </div>
+                <div id="prhidden" class="hidden border-red-500 border-solid border-[2px] w-[100%] h-64 ">
+                  <div class="w-[100%]"></div>
+                </div>
+                <div id="prhidden" class="hidden border-red-500 border-solid border-[2px] w-[100%] h-64 ">
+                  <div class="w-[100%]"></div>
+                </div>
+                <div class="w-[100%] flex justify-center ">
+                   <button id="showmore" class="bg-primary w-[150px] h-[30px] rounded-lg hover: text-2xl font-bold cursor-pointer">Show more</button>
+                </div>   
+            </div>       
+            
+        </section>
+        <div class="hidden glow w-[1000px] h-[1000px] lg:block pointer-events-none  rounded-full bg-primary blur-[150px] absolute opacity-[0.15]" ></div>
+    </body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</html>
